@@ -102,6 +102,6 @@ below command for password to kubecluster
 kops get secrets kube --type secret -o plaintext
 
 below command for password to kubedashbaord
-kops get secrets admin --type secret -o plaintext
+kops get secrets admin --type secret -o plaintext ---> token password
 
 
